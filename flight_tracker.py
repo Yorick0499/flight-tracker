@@ -4,16 +4,16 @@ import time
 import math
 import matplotlib.pyplot as plt
 
-localization = "Duszniki-Zdrój"
-loc_latitude = 50.4032700
-loc_longitude = 16.3909100
+localization = "CITY_NAME"
+loc_latitude = "CITY_LATITUDE"
+loc_longitude = "CITY_LONGITUDE"
 distance = 50
 radians_latitude = math.radians(52.409538)
 longitude_formula = distance / (111.320 * math.cos(radians_latitude))
 latitude_formula = distance / 111.320
 
-my_latitude = 50.401583769298895
-my_longitude = 16.388779015950917
+my_latitude = "YOUR_LATITUDE"
+my_longitude = "YOUR_LONGITUDE"
 
 
 
